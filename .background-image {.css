@@ -1,0 +1,18 @@
+.background-image {
+    background-image: url('https://wallpapercave.com/wp/wp7578886.jpg'); /* Replace 'image.jpg' with the path to your image */
+    background-size: cover; /* Adjusts the size of the background image */
+    background-position: center; /* Centers the background image */
+    /* You can add more background properties like repeat, attachment, etc. as needed */
+}
+.container {
+    position: relative;
+    height: 100vh;
+    background-image: url('https://wallpapercave.com/wp/wp7578886.jpg');
+    background-size: cover;
+    opacity: 0.9; /* Adjust the opacity to make the background more transparent */
+}
+h1 {
+    position: relative;
+    z-index: 99; /* Ensure the content appears above the background image */
+    color: rgba(7, 1, 1, 0.921); /* Text color */
+}
